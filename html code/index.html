@@ -134,13 +134,13 @@
                             <h2 class="text-3xl text-[#FFF] font-extrabold">Junior Program</h2>
                             <p class="text-[17px] text-[#FFF] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                            <button class="bg-red-500 text-[#FFF] text-center text-[20px] font-semibold rounded-xl border-solid border-2 border-sky-300 w-44 h-14">Register Now!</button>
+                            <button class="bg-red-500 text-[#FFF] text-center text-[20px] font-semibold rounded-xl w-44 h-14">Register Now!</button>
                         </div>
                         <div class="mt-20 mr-24 bg-[url('../Images/3.png')] bg-no-repeat w-[570px] h-[350px] p-12 space-y-6">
                             <h2 class="text-3xl text-[#FFF] font-extrabold">Teenager Program</h2>
                             <p class="text-[17px] text-[#FFF] font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                            <button class="bg-red-500 text-[#FFF] text-center text-[20px] font-semibold rounded-xl border-solid border-2 border-sky-300 w-44 h-14">Register Now!</button>
+                            <button class="bg-red-500 text-[#FFF] text-center text-[20px] font-semibold rounded-xl w-44 h-14">Register Now!</button>
                         </div>
                     </div>
                     <div class="mt-6">
@@ -148,7 +148,7 @@
                             <h2 class="text-3xl text-[rgb(255,255,255)] font-extrabold">Professional Program</h2>
                             <p class="text-[17px] text-[#FFF] font-medium w-[550px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                            <button class="bg-red-500 text-[#FFF] text-center text-[20px] font-semibold rounded-xl border-solid border-2 border-sky-300 w-44 h-14">Register Now!</button>
+                            <button class="bg-red-500 text-[#FFF] text-center text-[20px] font-semibold rounded-xl w-44 h-14">Register Now!</button>
                         </div>
                     </div>
                 </section>  
@@ -733,11 +733,11 @@
 
                 <hr style="border: 2px dotted grey; width: 80%; margin-left: 100px; margin-top: 20px;">
 
-            <!--phone, email, location, input section main-->
+            <!--phone, email, location, input main section-->
 
-                <section> 
+                <section class="flex gap-14 mt-20"> 
                     <!--phone, email, location container-->
-                    <section class="space-y-5 border-solid border-2 border-gray-100 w-[450px] mt-20 ml-24 p-9 rounded-2xl bg-[#FFF]">
+                    <section class="space-y-5 border-solid border-2 border-gray-100 w-[450px] ml-24 p-9 rounded-2xl bg-[#FFF]">
                         <!--phone number section-->
                         <div class="space-y-5 bg-gray-50 w-[370px] h-[210px] p-9 rounded-2xl">
                             <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -1124,11 +1124,44 @@
                     </section>
                     <!--input text container-->
                     <section>
-                        <div>
-                            <div>
-                                
-                            </div>
-                        </div>
+                             <form class="grid grid-cols-2 gap-8 mr-48">
+                                 <div>
+                                    <h2 class="text-black text-xl font-bold">Your Name</h2>
+                                    <label for="">
+                                    <input class="w-80 h-14 border-solid border-2 border-gray-200 rounded-xl p-3 bg-gray-50"  placeholder="Enter your full name" type="text" name="" id="">
+                                    </label>
+                                </div>
+                                <div>
+                                    <h2 class="text-black text-xl font-bold">Your Email</h2>
+                                    <label for="">
+                                    <input class="w-80 h-14 border-solid border-2 border-gray-200 rounded-xl p-3 bg-gray-50"  placeholder="Enter your email" type="text" name="" id="">
+                                    </label>
+                                </div>
+                                <div>
+                                    <h2 class="text-black text-xl font-bold">Subject</h2>
+                                    <label for="">
+                                    <input class="w-80 h-14 border-solid border-2 border-gray-200 rounded-xl p-3 bg-gray-50"  placeholder="Enter your subject" type="text" name="" id="">
+                                    </label>
+                                </div>
+                                <div>
+                                    <h2 class="text-black text-xl font-bold">Phone Number</h2>
+                                    <label for="">
+                                    <input class="w-80 h-14 border-solid border-2 border-gray-200 rounded-xl p-3 bg-gray-50 "  placeholder="Enter your phone number" type="text" name="" id="">
+                                    </label>
+                                </div>
+                                </form>
+                            <!--comment type massage section-->
+                                <form class="grid gap-12 mt-8">
+                                <div>
+                                    <h2 class="text-black text-xl font-bold">Message</h2>
+                                    <label for="">
+                                    <input class="w-[663px] h-[350px] border-solid border-2 border-gray-200 rounded-xl bg-gray-50 p-3 "  placeholder="Write your Message" type="text" name="" id="">
+                                    </label>
+                                </div>
+                                <div>
+                                    <button class="w-[663px] h-20 bg-red-500 text-[#FFF] text-xl font-bold rounded-2xl">Sent Message</button>
+                                </div>
+                                </form>
                     </section>
                 </section>
         </article>
